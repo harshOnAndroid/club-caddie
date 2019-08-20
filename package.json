@@ -1,0 +1,31 @@
+{
+  "name": "club-caddie",
+  "productName": "club-caddie",
+  "version": "0.0.1",
+  "description": "Club caddie POS",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build-osx": "electron-packager . MyClub --platform darwin",
+    "build-win":"electron-packager . -icon ./images/logo.png --overwrite --asar=true --platform=win32 --arch=ia32 --prune=true --out=release-builds"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^6.0.1",
+    "electron-builder": "20.38.5",
+    "electron-packager": "^14.0.4",
+    "electron-winstaller": "^4.0.0"
+  },
+  "dependencies": {
+    "electron-builder": "^20.38.5"
+  }
+}

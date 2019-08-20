@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- CSRF Token -->
+      <meta name="csrf-token" content="">
+      <title>Club Caddie</title>
+      <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,600,700,800,900" rel="stylesheet">
+      <link id="gull-theme" rel="stylesheet" href="css/lite-style.min.css">
+      <link rel="stylesheet" href="css/perfect-scrollbar.css">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body class="text-left"
+         unselectable="on"
+         onselectstart="return false;"
+         onmousedown="return false;">
+      <!-- ============ Compact Layout start ============= -->
+      <!-- ============Deafult  Large SIdebar Layout start ============= -->
+      <span
+              class = "head"
+              style="-webkit-app-region: drag " ></span>
+      <div class="app-admin-wrap layout-sidebar-large clearfix">
+
+         <div class="main-header">
+            <div class="logo">
+               <img src="images/logo.png" alt="">
+            </div>
+            <div class="menu-toggle">
+               <div></div>
+               <div></div>
+               <div></div>
+            </div>
+            <div class="d-flex align-items-center">
+               <div class="club-select-style-two">
+                  <select>
+                     <option><i class="icon-green_downarrow"></i> Course A</option>
+                     <option>Course A</option>
+                     <option>Course A </option>
+                  </select>
+               </div>
+            </div>
+            <div style="margin: auto"></div>
+            <div class="header-part-right">
+               <!-- Full screen toggle -->
+               <i class="i-Full-Screen header-icon d-none d-sm-inline-block" data-fullscreen ></i>
+               <div class="border-left1">
+                  <div class="badge-top-container " >
+                     <div class="width100">
+                        <i class="icon-calender"></i> MONDAY, 02 Aug 2019
+                     </div>
+                  </div>
+                  <div class="badge-top-container width60" >
+                     <i class="icon-time"></i> 02:30 PM
+                  </div>
+                  <div class="badge-top-container width40" >
+                     <i class="icon-cloud"></i> 41 <sup>0</sup>F 
+                  </div>
+               </div>
+               <!-- Notificaiton End -->
+               <!-- User avatar dropdown -->
+               <div class="dropdown">
+                  <div  class="user col align-self-end">
+                     <span class="float-left"><img src="images/no-img.png"></span> 
+                     <span class="pro-user-name ml-1 float-left">
+                     Jason <br/>
+                     <small>Admin</small>
+                     </i> 
+                     </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!-- header top menu end -->
+         <div class="side-content-wrap">
+            <div class="sidebar-left open rtl-ps-none" data-perfect-scrollbar data-suppress-scroll-x="true">
+               <ul class="navigation-left">
+                  <li class="nav-item active" data-item="dashboard">
+                     <a class="nav-item-hold" href="#">
+                     <i class="nav-icon icon-resister"></i>
+                     <span class="nav-text">Dashboard</span>
+                     </a>
+                  </li>
+                  <li class="nav-item " data-item="uikits">
+                     <a class="nav-item-hold" href="#">
+                     <i class="nav-icon icon-teesheets"></i>
+                     <span class="nav-text">TeeSheets</span>
+                     </a>
+                  </li>
+                  <li class="nav-item " data-item="extrakits">
+                     <a class="nav-item-hold" href="#">
+                     <i class="nav-icon icon-ondemand"></i>
+                     <span class="nav-text">Ondemand</span>
+                     </a>
+                  </li>
+                  <li class="nav-item " data-item="apps">
+                     <a class="nav-item-hold" href="#">
+                     <i class="nav-icon icon-events"></i>
+                     <span class="nav-text">Events</span>
+                     </a>
+                  </li>
+                  <li class="nav-item " data-item="forms">
+                     <a class="nav-item-hold" href="#">
+                     <i class="nav-icon icon-customers"></i>
+                     <span class="nav-text">Customers</span>
+                     </a>
+                  </li>
+                  <li class="nav-item " data-item="widgets">
+                     <a class="nav-item-hold" href="#">
+                     <i class="nav-icon icon-member"></i>
+                     <span class="nav-text">Members</span>
+                     </a>
+                  </li>
+                  <li class="nav-item " data-item="charts">
+                     <a class="nav-item-hold" href="#">
+                     <i class="nav-icon icon-sales"></i>
+                     <span class="nav-text">Sales</span>
+                     </a>
+                  </li>
+                  <li class="nav-item " data-item="reports">
+                     <a class="nav-item-hold" href="#">
+                     <i class="nav-icon icon-reports"></i>
+                     <span class="nav-text">Reports</span>
+                     </a>
+                  </li>
+                  <li class="nav-item " data-item="setting">
+                     <a class="nav-item-hold" href="">
+                     <i class="nav-icon icon-settings"></i>
+                     <span class="nav-text">Sessions</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <div class="sidebar-left-secondary rtl-ps-none" data-perfect-scrollbar data-suppress-scroll-x="true">
+               <!-- Submenu Dashboards -->
+               <ul class="childNav" data-parent="dashboard">
+                  <li class="nav-item ">
+                     <a class="open"
+                        href="#">
+                     <i class="nav-icon icon-quickmenu"></i>
+                     <span class="item-name">Quick Menu</span> <span class=" ml-2 badge badge-primary badge-pill">120</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="#"
+                        class="">
+                     <i class="nav-icon icon-small_glass"></i>
+                     <span class="item-name">Drinks</span>
+                     <span class=" ml-2 badge badge-primary badge-pill">120</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class=""
+                        href="#">
+                     <i class="nav-icon icon-food"></i>
+                     <span class="item-name">Food</span>
+                     <span class=" ml-2 badge badge-primary badge-pill">150</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class=""
+                        href="#">
+                     <i class="nav-icon icon-banquet"></i>
+                     <span class="item-name">Banquet</span>
+                     <span class=" ml-2 badge badge-primary badge-pill">0</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class=""
+                        href="#">
+                     <i class="nav-icon icon-merchandise"></i>
+                     <span class="item-name">Merchandise</span>
+                     <span class=" ml-2 badge badge-primary badge-pill">25</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class=""
+                        href="#">
+                     <i class="nav-icon icon-golf_fees"></i>
+                     <span class="item-name">Golf Fees</span>
+                     <span class=" ml-2 badge badge-primary badge-pill">25</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class=""
+                        href="#">
+                     <i class="nav-icon icon-pool"></i>
+                     <span class="item-name">Phool</span>
+                     <span class=" ml-2 badge badge-primary badge-pill">5</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class=""
+                        href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Tools</span>
+                     <span class=" ml-2 badge badge-primary badge-pill">200</span>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="childNav" data-parent="forms">
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="childNav" data-parent="widgets">
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="childNav" data-parent="charts">
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="childNav" data-parent="apps">
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="childNav" data-parent="extrakits">
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="childNav" data-parent="uikits">
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="childNav" data-parent="sessions">
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="childNav" data-parent="others">
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="" href="#">
+                     <i class="nav-icon icon-tools"></i>
+                     <span class="item-name">Basic 1</span>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+            <div class="sidebar-overlay"></div>
+         </div>
+         <!--=============== Left side End ================-->            
+         <!-- ============ Body content start ============= -->
+         <div class="main-content-wrap sidenav-open d-flex flex-column">
+            <div class="main-content">
+               <div class="row blue-box">
+                  <div class="col bor-right">
+                     <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                        <div class="card-body text-center">
+                           <div class="content">
+                              <p class="text-small-white mt-2 mb-0">ORDER</p>
+                              <p class="text-medium-white mt-1">01</p>
+                              <p class="text-medium-bottom mb-1">Ian Brigmann</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col bor-right">
+                     <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                        <div class="card-body text-center">
+                           <div class="content">
+                              <small class="grey-dot"></small>
+                              <p class="text-small-white mt-2 mb-0">ORDER</p>
+                              <p class="text-medium-white mt-1">02</p>
+                              <p class="text-medium-bottom mb-1">Anonymous</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col bor-right">
+                     <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                        <div class="card-body text-center">
+                           <div class="content">
+                              <small class="red-dot"></small>
+                              <p class="text-small-white mt-2 mb-0">ORDER</p>
+                              <p class="text-medium-white mt-1">03</p>
+                              <p class="text-medium-bottom mb-1">Lunis Khairnar</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col bor-right active">
+                     <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                        <div class="card-body text-center">
+                           <div class="content">
+                              <small class="blue-dot"></small>
+                              <p class="text-small-white mt-2 mb-0">ORDER</p>
+                              <p class="text-medium-white mt-1">04</p>
+                              <p class="text-medium-bottom mb-1">Jason Pearsall</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col bor-right">
+                     <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                        <div class="card-body text-center">
+                           <div class="content">
+                              <small class="green-dot"></small>
+                              <p class="text-small-white mt-2 mb-0">ORDER</p>
+                              <p class="text-medium-white mt-1">05</p>
+                              <p class="text-medium-bottom mb-1">Erik Christensen</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col bor-right">
+                     <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                        <div class="card-body text-center">
+                           <div class="content">
+                              <p class="text-small-white mt-2 mb-0">ORDER</p>
+                              <p class="text-medium-white mt-1">06</p>
+                              <p class="text-medium-bottom mb-1">Dan Taylor</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col bor-right">
+                     <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                        <div class="card-body text-center">
+                           <div class="content">
+                              <p class="text-small-white mt-2 mb-0">ORDER</p>
+                              <p class="text-medium-white mt-1">07</p>
+                              <p class="text-medium-bottom mb-1">Jason Pearsall</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col bor-right">
+                     <div class="card card-icon-bg card-icon-bg-primary o-hidden mb-4">
+                        <div class="card-body text-center">
+                           <div class="content">
+                              <p class="text-small-white mt-2 mb-0">ORDER</p>
+                              <p class="text-medium-white mt-1">100</p>
+                              <p class="text-medium-bottom mb-1">Jason Pearsall</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col bor-right">
+                     <div class="select-order mt-2"> Select Order <br/>from list</div>
+                  </div>
+                  <div class="col text-center col-width50 bor-right" ><label class="down_blackarrow mt-4"><i class="icon-down_blackarrow"></i></label></div>
+                  <div class="col text-center"><button class="btn green-btn mt-4"><i class="icon-add"></i> <span>NEW ORDER</span></button></div>
+               </div>
+               <div class="row tab-box-center">
+                  <div class="card text-left">
+                     <div class="card-body">
+                        <ul class="nav nav-tabs  tab-fixed" id="dropdwonTab">
+                           <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle  black-drop-down" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                              <i class="icon-glass"></i> Drink <i class="icon-down_blackarrow"></i>
+                              </a>
+                              <div class="dropdown-menu" >
+                                 <a class="dropdown-item " id="dropdown1-tab" href="#dropdown1" data-toggle="tab" aria-controls="dropdown1" aria-expanded="true"> <i class="icon-glass"></i> Drink </a>
+                                 <a class="dropdown-item" id="dropdown2-tab" href="#dropdown2" data-toggle="tab" aria-controls="dropdown2" aria-expanded="true"><i class="icon-glass"></i> Drink </a>
+                              </div>
+                           </li>
+                           <li class="nav-item ">
+                              <a class="nav-link active" id="alcohol-tab" data-toggle="tab" href="#alcohol" aria-controls="alcohol" aria-expanded="true"><span>Alcohol</span></a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" id="draftbeer-tab" data-toggle="tab" href="#draftbeer" aria-controls="draftbeer" aria-expanded="false"><span>Draft Beer</span></a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" id="canned-tab" data-toggle="tab" href="#canned" aria-controls="canned" aria-expanded="false"><span>Canned Beer</span></a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" id="cocktails-tab" data-toggle="tab" href="#cocktails" aria-controls="cocktails" aria-expanded="false"><span>Cocktails</span></a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" id="wine-tab" data-toggle="tab" href="#wine" aria-controls="wine" aria-expanded="false"><span>Wine</span></a>
+                           </li>
+                           <li class="nav-item">
+                              <a class="nav-link" id="juice-tab" data-toggle="tab" href="#juice" aria-controls="juice" aria-expanded="false"><span>Pop/Juice/etc</span></a>
+                           </li>
+                        </ul>
+                        <div class="row pl-4 mr-3 scroll-box-2">
+                           <div class="col-md-8 col-lg-8 rtl-ps-none width-middle" data-perfect-scrollbar data-suppress-scroll-x="true">
+                              <div class="tab-content px-1 pt-1" id="dropdwonTabContent">
+                                 <div role="tabpanel" class="tab-pane active" id="alcohol" aria-labelledby="alcohol-tab" aria-expanded="true">
+                                    <div class="top-searh-header card-header">
+                                       <h3 class="float-left card-title m-0">
+                                          <div class="dropdown">
+                                             <a class="dropdown-toggle  black-drop-down" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                             Alcohol / <font class="green-text">Whisky</font> <i class="icon-green_downarrow"></i>
+                                             </a>
+                                             <div class="dropdown-menu" >
+                                                <a class="dropdown-item " id="dropdown1-tab" href="#dropdown1" data-toggle="tab" aria-controls="dropdown1" aria-expanded="true"> <i class="icon-glass"></i> Drink </a>
+                                                <a class="dropdown-item" id="dropdown2-tab" href="#dropdown2" data-toggle="tab" aria-controls="dropdown2" aria-expanded="true"><i class="icon-glass"></i> Drink </a>
+                                             </div>
+                                          </div>
+                                       </h3>
+                                       <div class="circle-search  float-right" style="position:relative">
+                                             <div class="search ">
+                                                   <div class="search__wrapper">
+                                                     <input type="text" name="" placeholder="Search for..." class="search__field">
+                                                     <button type="submit" class="icon-search search__icon"></button>
+                                                   </div>
+                                                </div>
+                                    
+                                       </div>
+                                       <div class="float-right mr-3">
+                                          <div class="search-bar2">
+                                             <i class="search-icon text-muted icon-scan"></i>
+                                             <input type="text" placeholder="Scan">
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div style="clear:both">
+                                       <div class="col-lg-12 col-md-12">
+                                          <!-- CARD ICON -->
+                                          <div class="row card-boxes ">
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="star-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 4.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Fireball</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3 active">
+                                                   <i class="star-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 4.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Black Velvet</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="grey-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 5.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Crown Royal <br/>Regal Apple</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="grey-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 5.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Jack Daniels Honey </p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-23">
+                                                   <i class="star-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 5.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Jameson</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="grey-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 5.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Crown Royal <br/>Regal Apple</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="grey-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 5.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Crown Royal <br/>Regal Apple</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="grey-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 5.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Crown Royal <br/>Regal Apple</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="star-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 5.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Crown Royal <br/>Regal Apple</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3 active">
+                                                   <i class="grey-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 4.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Imerial-Well</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="star-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 4.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Fireball</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3 active">
+                                                   <i class="star-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 4.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Seagram 7</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="grey-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 5.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Crown Royal <br/>Regal Apple</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="grey-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 5.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Jack Daniels Honey </p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="star-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 4.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Jameson</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="grey-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 5.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Crown Royal <br/>Regal Apple</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="grey-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 5.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Crown Royal <br/>Regal Apple</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="grey-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 5.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Crown Royal <br/>Regal Apple</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="star-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 5.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Crown Royal <br/>Regal Apple</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3 active">
+                                                   <i class="grey-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 4.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Tullamore Dew</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="star-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 4.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Fireball</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3 active">
+                                                   <i class="grey-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 4.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Crown Royal <br/>Regal Apple</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="star-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 4.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Black Dog</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="star-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 4.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Jack Daniels Honey</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                             <div class="col-left">
+                                                <div class="card mb-3">
+                                                   <i class="star-flap"></i>
+                                                   <div class="card-body text-left">
+                                                      <h3 class="mb-2">$ 4.75</h3>
+                                                      <p class=" text-24 line-height-1 mt-2">Jameson</p>
+                                                   </div>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <!-- end of row-->
+                                 </div>
+                                 <div class="tab-pane" id="draftbeer" role="tabpanel" aria-labelledby="draftbeer-tab" aria-expanded="false">
+                                    <p>Comming Soon
+                                    </p>
+                                 </div>
+                                 <div class="tab-pane" id="dropdown1" role="tabpanel" aria-labelledby="dropdown1-tab" aria-expanded="true">
+                                    <p>Comming Soon
+                                    </p>
+                                 </div>
+                                 <div class="tab-pane" id="dropdown2" role="tabpanel" aria-labelledby="dropdown2-tab" aria-expanded="false">
+                                    <p>Comming Soon
+                                    </p>
+                                 </div>
+                                 <div class="tab-pane" id="canned" role="tabpanel" aria-labelledby="canned-tab" aria-expanded="false">
+                                    <p>Comming Soon
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-md-4 col-lg-4 table-bg-box rtl-ps-none" data-perfect-scrollbar data-suppress-scroll-x="true" >
+                              <div class="table-responsive mt-2">
+                                 <table class="table ">
+                                    <thead >
+                                       <tr class="thead-dark">
+                                          <th class="width120">Jack Pearsall <br> <font>ORDER-04</font></th>
+                                          <th class="text-center" colspan="2"><button>Dine-In</button></th>
+                                          <th class="text-right"  colspan="2"><font>29 July<br/> 02:30 PM</font></th>
+                                       </tr>
+                                       <tr>
+                                          <th>ITEM</th>
+                                          <th class="text-left"> QUANTITY </th>
+                                          <th> UNIT PRICE </th>
+                                          <th colspan="2">TOTAL</th>
+                                          
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                          <tr>
+                                                <td>Imperial - Well</td>
+                                                
+                                                <td class="size-box">
+                                                   <div class="input-group">
+                                                      <span class="input-group-btn">
+                                                          <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                                          </button>
+                                                      </span>
+                                                      <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                                                      <span class="input-group-btn">
+                                                          <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                                          </button>
+                                                      </span>
+                                                  </div>
+                                                </td>
+                                                <td>$4.5 </td>
+                                                <td>$9.5 </td>
+                                                <td id="right-arrow" class="gray-arrow "><i class="right-arrow"></i></td>
+                                                <td id="display_advance" > <div class="btn-group ">
+                                                      <button type="button" class="btn btn-success">
+                                                          <i class="icon-check"></i>
+                                                      </button>
+                                                     
+                                                      <button type="button" class="btn btn-danger">
+                                                          <i class="icon-cross"></i>
+                                                      </button>
+                                                  </div></td>
+                                                
+                                             </tr>
+                                       <tr>
+                                          <td>Black Velvet 2</td>
+                                          
+                                          <td class="size-box">
+                                             <div class="input-group">
+                                                <span class="input-group-btn">
+                                                    <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                      <i class="fa fa-minus" aria-hidden="true"></i>
+                                                    </button>
+                                                </span>
+                                                <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                                                <span class="input-group-btn">
+                                                    <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                                                      <i class="fa fa-plus" aria-hidden="true"></i>
+                                                    </button>
+                                                </span>
+                                            </div>
+                                          </td>
+                                          <td>$4.5 </td>
+                                          <td>$9.5 </td>
+                                          <td id="right-arrow2" class="gray-arrow "><i class="right-arrow"></i></td>
+                                          <td id="display_advance2" > <div class="btn-group ">
+                                                <button type="button" class="btn btn-success">
+                                                    <i class="icon-check"></i>
+                                                </button>
+                                               
+                                                <button type="button" class="btn btn-danger">
+                                                    <i class="icon-cross"></i>
+                                                </button>
+                                            </div></td>
+                                          
+                                       </tr>
+                                       <tr>
+                                             <td>Crown Royal Regal Apple</td>
+                                             
+                                             <td class="size-box">
+                                                <div class="input-group">
+                                                   <span class="input-group-btn">
+                                                       <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                         <i class="fa fa-minus" aria-hidden="true"></i>
+                                                       </button>
+                                                   </span>
+                                                   <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                                                   <span class="input-group-btn">
+                                                       <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                                                         <i class="fa fa-plus" aria-hidden="true"></i>
+                                                       </button>
+                                                   </span>
+                                               </div>
+                                             </td>
+                                             <td>$4.5 </td>
+                                             <td>$9.5 </td>
+                                             <td  class="gray-arrow "><i class="right-arrow"></i></td>
+                                           
+                                             
+                                          </tr>
+                                          <tr>
+                                                <td>Seagram 7</td>
+                                                
+                                                <td class="size-box">
+                                                   <div class="input-group">
+                                                      <span class="input-group-btn">
+                                                          <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                                          </button>
+                                                      </span>
+                                                      <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                                                      <span class="input-group-btn">
+                                                          <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                                          </button>
+                                                      </span>
+                                                  </div>
+                                                </td>
+                                                <td>$4.5 </td>
+                                                <td>$9.5 </td>
+                                                <td  class="gray-arrow "><i class="right-arrow"></i></td>
+                                              
+                                                
+                                             </tr>
+                                             <tr>
+                                             <td>Jameson</td>
+                                             
+                                             <td class="size-box">
+                                                <div class="input-group">
+                                                   <span class="input-group-btn">
+                                                       <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                         <i class="fa fa-minus" aria-hidden="true"></i>
+                                                       </button>
+                                                   </span>
+                                                   <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                                                   <span class="input-group-btn">
+                                                       <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                                                         <i class="fa fa-plus" aria-hidden="true"></i>
+                                                       </button>
+                                                   </span>
+                                               </div>
+                                             </td>
+                                             <td>$4.5 </td>
+                                             <td>$9.5 </td>
+                                             <td  class="gray-arrow "><i class="right-arrow"></i></td>
+                                           
+                                             
+                                          </tr>
+                                          <tr>
+                                                <td>Jameson</td>
+                                                
+                                                <td class="size-box">
+                                                   <div class="input-group">
+                                                      <span class="input-group-btn">
+                                                          <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                                          </button>
+                                                      </span>
+                                                      <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                                                      <span class="input-group-btn">
+                                                          <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                                          </button>
+                                                      </span>
+                                                  </div>
+                                                </td>
+                                                <td>$4.5 </td>
+                                                <td>$9.5 </td>
+                                                <td  class="gray-arrow "><i class="right-arrow"></i></td>
+                                              
+                                                
+                                             </tr>
+                                             <tr>
+                                                   <td>Jameson</td>
+                                                   
+                                                   <td class="size-box">
+                                                      <div class="input-group">
+                                                         <span class="input-group-btn">
+                                                             <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                                                               <i class="fa fa-minus" aria-hidden="true"></i>
+                                                             </button>
+                                                         </span>
+                                                         <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="10">
+                                                         <span class="input-group-btn">
+                                                             <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                                                               <i class="fa fa-plus" aria-hidden="true"></i>
+                                                             </button>
+                                                         </span>
+                                                     </div>
+                                                   </td>
+                                                   <td>$4.5 </td>
+                                                   <td>$9.5 </td>
+                                                   <td  class="gray-arrow "><i class="right-arrow"></i></td>
+                                                 
+                                                   
+                                                </tr>
+                                          
+                                      
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- end of col -->
+            </div>
+         </div>
+         <!-- ============ Body content End ============= -->
+      </div>
+ 
+      <!-- ============ Search UI End ============= -->
+      <!-- ============ Large Sidebar Layout End ============= -->
+      <script src="js/jquery-2.2.4.min.js"></script>
+      <script src="js/common-bundle-script.js"></script>
+      <script src="js/script.js"></script>
+      <script src="js/sidebar.large.script.js"></script>
+   </body>
+</html>

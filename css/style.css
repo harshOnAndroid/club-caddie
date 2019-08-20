@@ -1,0 +1,342 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ncm7xd');
+  src:  url('fonts/icomoon.eot?ncm7xd#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ncm7xd') format('truetype'),
+    url('fonts/icomoon.woff?ncm7xd') format('woff'),
+    url('fonts/icomoon.svg?ncm7xd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add:before {
+  content: "\e900";
+  color: #fff;
+}
+.icon-banquet:before {
+  content: "\e901";
+;
+}
+.icon-blue-dot:before {
+  content: "\e902";
+  color: #3fa9f5;
+}
+.icon-calender .path1:before {
+  content: "\e903";
+  color: rgb(215, 244, 255);
+}
+.icon-calender .path2:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-calender .path3:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(154, 220, 254);
+}
+.icon-calender .path4:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(154, 220, 254);
+}
+.icon-calender .path5:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(215, 244, 255);
+}
+.icon-calender .path6:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(154, 220, 254);
+}
+.icon-calender .path7:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(215, 244, 255);
+}
+.icon-calender .path8:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(154, 220, 254);
+}
+.icon-calender .path9:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(13, 65, 89);
+}
+.icon-calender .path10:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(255, 204, 100);
+}
+.icon-check:before {
+  content: "\e90d";
+  color: #fff;
+}
+.icon-clock .path1:before {
+  content: "\e90e";
+  color: rgb(215, 244, 255);
+}
+.icon-clock .path2:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(247, 248, 252);
+}
+.icon-clock .path3:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(13, 65, 89);
+}
+.icon-clock .path4:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(13, 65, 89);
+}
+.icon-clock .path5:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(13, 65, 89);
+}
+.icon-clock .path6:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(13, 65, 89);
+}
+.icon-clock .path7:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(13, 65, 89);
+}
+.icon-clock .path8:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(13, 65, 89);
+}
+.icon-cloud .path1:before {
+  content: "\e916";
+  color: rgb(255, 204, 100);
+}
+.icon-cloud .path2:before {
+  content: "\e917";
+  margin-left: -1.349609375em;
+  color: rgb(13, 65, 89);
+}
+.icon-cloud .path3:before {
+  content: "\e918";
+  margin-left: -1.349609375em;
+  color: rgb(13, 65, 89);
+}
+.icon-cloud .path4:before {
+  content: "\e919";
+  margin-left: -1.349609375em;
+  color: rgb(13, 65, 89);
+}
+.icon-cloud .path5:before {
+  content: "\e91a";
+  margin-left: -1.349609375em;
+  color: rgb(13, 65, 89);
+}
+.icon-cloud .path6:before {
+  content: "\e91b";
+  margin-left: -1.349609375em;
+  color: rgb(13, 65, 89);
+}
+.icon-cloud .path7:before {
+  content: "\e91c";
+  margin-left: -1.349609375em;
+  color: rgb(13, 65, 89);
+}
+.icon-cloud .path8:before {
+  content: "\e91d";
+  margin-left: -1.349609375em;
+  color: rgb(13, 65, 89);
+}
+.icon-cloud .path9:before {
+  content: "\e91e";
+  margin-left: -1.349609375em;
+  color: rgb(13, 65, 89);
+}
+.icon-cloud .path10:before {
+  content: "\e91f";
+  margin-left: -1.349609375em;
+  color: rgb(13, 65, 89);
+}
+.icon-cloud .path11:before {
+  content: "\e920";
+  margin-left: -1.349609375em;
+  color: rgb(13, 65, 89);
+}
+.icon-cloud .path12:before {
+  content: "\e921";
+  margin-left: -1.349609375em;
+  color: rgb(13, 65, 89);
+}
+.icon-cloud .path13:before {
+  content: "\e922";
+  margin-left: -1.349609375em;
+  color: rgb(255, 239, 213);
+}
+.icon-cloud .path14:before {
+  content: "\e923";
+  margin-left: -1.349609375em;
+  color: rgb(215, 244, 255);
+}
+.icon-cloud .path15:before {
+  content: "\e924";
+  margin-left: -1.349609375em;
+  color: rgb(154, 220, 254);
+}
+.icon-cloud .path16:before {
+  content: "\e925";
+  margin-left: -1.349609375em;
+  color: rgb(255, 255, 255);
+}
+.icon-cloud .path17:before {
+  content: "\e926";
+  margin-left: -1.349609375em;
+  color: rgb(13, 65, 89);
+}
+.icon-cross:before {
+  content: "\e927";
+  color: #fff;
+}
+.icon-customers:before {
+  content: "\e928";
+ 
+}
+.icon-down_blackarrow:before {
+  content: "\e929";
+}
+.icon-downarrow:before {
+  content: "\e92a";
+ 
+}
+.icon-events:before {
+  content: "\e92b";
+ 
+}
+.icon-food:before {
+  content: "\e92c";
+ 
+}
+.icon-glass:before {
+  content: "\e92d";
+}
+.icon-golf_fees:before {
+  content: "\e92e";
+ 
+}
+.icon-gray-path:before {
+  content: "\e92f";
+  
+}
+.icon-green_downarrow:before {
+  content: "\e930";
+  color: #009245;
+}
+.icon-green-dot:before {
+  content: "\e931";
+  color: #25ba61;
+}
+.icon-left-arrow:before {
+  content: "\e932";
+  color: #f2f2f2;
+}
+.icon-member:before {
+  content: "\e933";
+ 
+}
+.icon-merchandise:before {
+  content: "\e934";
+  color: #ccc;
+}
+.icon-no-img .path1:before {
+  content: "\e935";
+  color: rgb(230, 230, 230);
+}
+.icon-no-img .path2:before {
+  content: "\e936";
+  margin-left: -1.0283203125em;
+  color: rgb(0, 0, 0);
+  opacity: 0.0081;
+}
+.icon-ondemand:before {
+  content: "\e937";
+  
+}
+.icon-pool:before {
+  content: "\e938";
+ 
+}
+.icon-quickmenu:before {
+  content: "\e939";
+ 
+}
+.icon-red-dot:before {
+  content: "\e93a";
+  color: #ed1c24;
+}
+.icon-reports:before {
+  content: "\e93b";
+ 
+}
+.icon-resister:before {
+  content: "\e93c";
+
+}
+.icon-sales:before {
+  content: "\e93d";
+  
+}
+.icon-scan:before {
+  content: "\e93e";
+
+}
+.icon-search:before {
+  content: "\e93f";
+}
+.icon-second-green-dot:before {
+  content: "\e940";
+  color: #39b54a;
+}
+.icon-settings:before {
+  content: "\e941";
+  
+}
+.icon-small_glass:before {
+  content: "\e942";
+  
+}
+.icon-star .path1:before {
+  content: "\e943";
+  color: rgb(241, 90, 36);
+}
+.icon-star .path2:before {
+  content: "\e944";
+  margin-left: -1.0908203125em;
+  color: rgb(254, 211, 112);
+}
+.icon-teesheets:before {
+  content: "\e945";
+  
+}
+.icon-tools:before {
+  content: "\e946";
+  
+}
